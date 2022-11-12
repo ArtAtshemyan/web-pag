@@ -1,0 +1,106 @@
+.ClintPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Clint__Page__Header {
+    position: absolute;
+    width: 200px;
+    background-color: white;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-right: 1px solid navy;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.Clint__Page__Photo {
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #f60606;
+    box-shadow: 2px 5px 5px 2px rgba(0, 108, 255, 0.89);
+    margin-bottom: 20px;
+}
+
+.Users__Info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Clint__Page__Name {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: all 0.4s ease-in-out;
+}
+.UserInfos {
+    border-radius: 0 20px;
+    padding: 2px 15px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 108, 255, 0.89);
+}
+.User__Name{
+    border-radius: 0 20px;
+    padding: 2px 15px;
+    color: crimson;
+    box-shadow: 2px 2px 2px 2px rgba(0, 108, 255, 0.89);
+}
+.User__LastName {
+    border-radius: 20px 0;
+    color: midnightblue;
+    padding: 2px 15px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 108, 255, 0.89);
+}
+.Users__Menu {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rosybrown;
+    width: 60px;
+    height: 400px;
+}
+.icons {
+    display: flex;
+    border-radius: 15px 0;
+    color: midnightblue;
+    padding: 2px 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 108, 255, 0.89);
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.icons__label {
+    border-radius: 0 20px;
+    padding: 2px 5px;
+    transform: translateX(-250px);
+    transition: all 0.4s ease-in-out;
+    text-transform: capitalize;
+    box-shadow: 2px 2px 2px 2px rgb(236, 38, 38);
+    font-size: 18px;
+}
+
+.Clint__Page__Header:hover .icons__label{
+    transform: translateX(0);
+    transition: all 0.4s ease-in-out;
+}
+
+
+.Clint__Page__Main {
+    width: 94%;
+    margin-left: auto;
+    height: 100vh;
+}

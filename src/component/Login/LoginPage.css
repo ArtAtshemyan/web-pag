@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+.Login__Page {
+    width: 40%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+.Login__Form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.Form__Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+}
+.Login__p {
+    font-family: "Elephant",sans-serif;
+    color: rgba(0, 56, 169, 0.93);
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.Form__Label {
+    border-radius: 20px 0;
+    padding: 2px 25px;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 2px 2px rgba(0, 108, 255, 0.89);
+    font-size: 18px;
+}
+
+
+.Form__Input {
+    border-radius: 0 20px;
+    padding: 3px 25px;
+    height: 25px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px silver;
+    letter-spacing: 1px;
+    transition: all 0.2s ease-in-out;
+}
+.Form__Input:focus{
+    border-radius: 20px 0;
+    padding: 4px 35px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 108, 255, 0.93);
+    transition: all 0.2s ease-in-out;
+}
+.Submit {
+    padding: 8px 20px;
+    border: none;
+    background-color: rgba(0, 108, 255, 0.89);
+    color: snow;
+    cursor: pointer;
+    border-radius: 20px 2px;
+    box-shadow: 2px 2px 2px 2px #ec2626;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+.Submit:hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.2);
+    border-radius: 2px 20px;
+}

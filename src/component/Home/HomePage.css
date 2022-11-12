@@ -1,0 +1,41 @@
+.Home__Page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Home__header {
+    border-bottom: 1px solid #afafa2;
+    padding-top: 10px;
+    font-size: 25px;
+    color: navy;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    font-family: Candara,sans-serif;
+}
+.Home__Navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 8px;
+    width: 40%;
+    height: 40px;
+    margin: 10px auto;
+    align-items: center;
+    background-color: rgba(12, 77, 154, 0.93);
+}
+.Home__Link {
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    height: 25px;
+    background: rgba(168, 3, 3, 0.25);
+    transition: all 0.3s ease-in-out;
+}
+.active {
+    transition: all 0.3s ease-in-out;
+    box-shadow: 1px 2px 2px 1px rgba(255, 250, 250, 0.71);
+}
+.Home__Link:nth-child(2){
+    background-color: crimson;
+}

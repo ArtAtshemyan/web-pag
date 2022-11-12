@@ -1,0 +1,53 @@
+.FormOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+}
+.Form__Lab {
+    border-radius: 20px 0;
+    padding: 2px 25px;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 2px 2px rgba(0, 108, 255, 0.89);
+    font-size: 18px;
+}
+.Form__In {
+    border-radius: 0 20px;
+    padding: 3px 25px;
+    height: 25px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px silver;
+    transition: all 0.2s ease-in-out;
+}
+.Form__In:focus {
+    padding: 4px 34px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 108, 255, 0.93);
+    border-radius: 20px 0;
+    transition: all 0.2s ease-in-out;
+}
+.errMas {
+    align-items: center;
+    font-size: 15px;
+    box-shadow: 2px 2px 2px 2px #f60606;
+    display: block;
+    width: 200px;
+    height: 20px;
+    color: crimson;
+    font-weight: bold;
+}
+.Form__Btn {
+    padding: 8px 20px;
+    border: none;
+    background-color: lawngreen;
+    color: snow;
+    border-radius: 20px 2px;
+    box-shadow: 2px 2px 2px 2px silver;
+    transition: all 0.3s ease-in-out;
+}
+.Form__Btn:hover {
+    border-radius: 2px 20px;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.2);
+}
